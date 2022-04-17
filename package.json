@@ -1,6 +1,6 @@
 {
   "name": "sb-design",
-  "homepage": "http://FRST-Falconi.github.io/storybook.frstfalconi.com",
+  "homepage": "",
   "version": "1.0.0",
   "private": true,
   "main": "./dist/index.js",
