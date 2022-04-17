@@ -1,0 +1,32 @@
+{
+  "globals.clickHere": "Clique aqui",
+  "globals.typeHere": "Escreva aqui",
+
+  "calendar.weekdays": [
+    "domingo",
+    "segunda-feira",
+    "terça-feira",
+    "quarta-feira",
+    "quinta-feira",
+    "sexta-feira",
+    "sabado"
+  ],
+  "calendar.monthsInitials": ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
+  "calendar.title": "Eventos",
+  "calendar.subtitle": "Programe-se abaixo e não perca nenhum evento.",
+  "calendar.card.description": "Selecione abaixo o módulo que deseja ver os eventos.",
+  "calendar.card.mentoringSchedule": "Horario das mentorias: próxima",
+  "calendar.card.fullSchedule": "para ver sua agenda de eventos completa",
+  "calendar.card.joinEvent": "Entrar no evento",
+  "calendar.notAvailable": "Em breve você poderá visualizar sua agenda de eventos aqui.",
+  "calendar.noMoreEvents": "Eventos encerrados.",
+
+  "user.card.noProduct": "Sem produto definido",
+  "user.card.status.complete": "Completo",
+  "user.card.status.incomplete": "Incompleto",
+  "user.card.status.enrolled": "Matriculdado",
+  "user.card.status.defined": "Trilha Definida",
+  "user.card.status.error": "Erro no envio",
+  "user.card.area": "Área",
+  "user.card.position": "Cargo"
+}

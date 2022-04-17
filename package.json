@@ -1,0 +1,53 @@
+{
+  "name": "sb-design",
+  "homepage": "http://FRST-Falconi.github.io/storybook.frstfalconi.com",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && mkdirp dist && rollup --config rollup.config.js",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-sb": "rimraf storybook-static && build-storybook -s public",
+    "deploy-sb": "gh-pages -d storybook-static"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.4.2",
+    "@mui/material": "^5.4.3",
+    "i18next": "^21.6.12",
+    "i18next-browser-languagedetector": "^6.1.3",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.5",
+    "react-scripts": "^5.0.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/node-logger": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "@types/styled-components": "^5.1.23",
+    "babel-plugin-styled-components": "^2.0.6",
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.68.0",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "storybook-react-i18next": "^1.0.17",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1"
+  }
+}

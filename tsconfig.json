@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */,
+    "module": "ES2015" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
+    "lib": ["dom", "dom.iterable"],
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["src/shared/*"],
+      "@components/*": ["src/components/*"],
+      "@public/*": ["public/*"]
+    },
+    "declaration": true,
+    "declarationMap": true /* Generates a sourcemap for each corresponding '.d.ts' file. */,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false
+  },
+  "include": ["./index.tsx", "./**/index.tsx", "./**/*.css", "./**/index.ts"],
+  "exclude": ["node_modules", "./src/**/*.stories.@(js|jsx|ts|tsx)"]
+}

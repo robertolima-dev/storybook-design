@@ -1,0 +1,22 @@
+{
+  "globals.clickHere": "Click here",
+  "globals.typeHere": "Type aqui",
+
+  "calendar.weekdays": ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"],
+  "calendar.monthsInitials": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  "calendar.title": "Events",
+  "calendar.subtitle": "Schedule yourself below and don't miss any event.",
+  "calendar.card.description": "Select below the module you want to view the events.",
+  "calendar.card.mentoringSchedule": "Mentoring schedule: next",
+  "calendar.card.fullSchedule": "to see your full schedule of events",
+  "calendar.card.joinEvent": "Enter the event",
+  "calendar.notAvailable": "You will soon be able to view your event schedule here.",
+  "calendar.noMoreEvents": "Events closed.",
+
+  "user.card.noProduct": "No product defined",
+  "user.card.status.complete": "Completo",
+  "user.card.status.incomplete": "Incompleto",
+  "user.card.status.enrolled": "Matriculdado",
+  "user.card.status.defined": "Trilha Definida",
+  "user.card.status.error": "Erro no envio"
+}
